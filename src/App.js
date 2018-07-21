@@ -24,7 +24,7 @@ class App extends Component {
 						</Row>
 						<Row bottom="xs" center="xs">
 							<Col xs={12}>
-								<Img src={Desk} sizeX="100%" sizeY="120%" max="800px" />
+								<Img src={Desk} sizeX="100%" sizeY="120%" max="600px" />
 							</Col>
 						</Row>
 					</Grid>
