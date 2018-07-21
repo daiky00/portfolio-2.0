@@ -6,6 +6,15 @@ body {
   font-family: Montserrat, HelveticaNeue-Light, helvetica neue light, helvetica neue, Helvetica, Arial, lucida grande, sans-serif;
 }
 
+a {
+  color: #4ab19a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1e836c;
+}
+
 @media screen and (max-width: 992px) {
   body {
     font-size: 0.8rem;
