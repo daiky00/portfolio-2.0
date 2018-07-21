@@ -7,7 +7,7 @@ class Navigation extends Component {
 	state = {};
 	render() {
 		return (
-			<list>
+			<List>
 				<ListItem inline>
 					<NavLink to="/">Home</NavLink>
 				</ListItem>
@@ -20,7 +20,7 @@ class Navigation extends Component {
 				<ListItem inline>
 					<NavLink to="/contact">Contact</NavLink>
 				</ListItem>
-			</list>
+			</List>
 		);
 	}
 }
