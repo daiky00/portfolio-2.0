@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-size: 1rem;
+  font-family: Montserrat, HelveticaNeue-Light, helvetica neue light, helvetica neue, Helvetica, Arial, lucida grande, sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 0.6rem;
+  }
 }
