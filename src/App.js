@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Me from './me.svg';
+import MeTwo from './metwo.svg';
 import Land from './land.svg';
+import Desk from './desk.svg';
 import Header from './components/header';
 import Img from './components/img';
 import Title from './components/title';
@@ -13,16 +15,16 @@ class App extends Component {
 			<React.Fragment>
 				<Header>
 					<Grid>
-						<Img src={Me} sizeX="102px" />
+						<Img src={MeTwo} sizeX="102px" />
 						<Row center="xs">
 							<Col xs={12}>
 								<Title>I'm Francisco</Title>
 							</Col>
-							<SubTitle>Frontend Developer/Designer UI/UX</SubTitle>
+							<SubTitle>Senior Frontend Developer/Designer</SubTitle>
 						</Row>
 						<Row bottom="xs" center="xs">
 							<Col xs={12}>
-								<Img src={Land} sizeX="100%" sizeY="100%" max="800px" />
+								<Img src={Desk} sizeX="100%" sizeY="120%" max="800px" />
 							</Col>
 						</Row>
 					</Grid>
