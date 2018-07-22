@@ -12,7 +12,7 @@ const Contact = () => (
 					<Col xs={12}>
 						<Title>Contact me</Title>
 					</Col>
-					<SubTitle>You want to get in touch with me?</SubTitle>
+					<SubTitle>Feel free to contact me for business or job offers</SubTitle>
 				</Row>
 			</Grid>
 		</Section>

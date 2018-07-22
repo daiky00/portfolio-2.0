@@ -14,7 +14,7 @@ const About = () => (
 					<Col xs={12}>
 						<Title>About me</Title>
 					</Col>
-					<SubTitle>Imagination and Passion</SubTitle>
+					<SubTitle>Things you should know about me</SubTitle>
 				</Row>
 				<Row bottom="xs" center="xs">
 					<Col xs={12}>
