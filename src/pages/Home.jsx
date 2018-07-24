@@ -6,6 +6,7 @@ import Title from '../components/Title';
 import SubTitle from '../components/SubTitle';
 import Section from '../components/Section';
 import Paragraph from '../components/Paragraph';
+import Divider from '../components/Divider';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 const Home = () => (
@@ -36,6 +37,11 @@ const Home = () => (
 						I'm a Senior Frontend Developer/Designer based in Plano, TX. I have a passion for web
 						development and I love to create new things for the web and mobile devices.
 					</Paragraph>
+				</Col>
+			</Row>
+			<Row center="xs">
+				<Col xs={2} md={1}>
+					<Divider />
 				</Col>
 			</Row>
 		</Grid>
