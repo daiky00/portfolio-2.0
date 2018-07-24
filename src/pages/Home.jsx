@@ -5,6 +5,7 @@ import Img from '../components/Img';
 import Title from '../components/Title';
 import SubTitle from '../components/SubTitle';
 import Section from '../components/Section';
+import Paragraph from '../components/Paragraph';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 const Home = () => (
@@ -29,6 +30,12 @@ const Home = () => (
 				<Img src={Me} sizeX="152px" sizeY="200px" />
 				<Col xs={12}>
 					<SubTitle>Hi.</SubTitle>
+				</Col>
+				<Col xs={12} sm={6}>
+					<Paragraph>
+						I'm a Senior Frontend Developer/Designer based in Plano, TX. I have a passion for web
+						development and I love to create new things for the web and mobile devices.
+					</Paragraph>
 				</Col>
 			</Row>
 		</Grid>
