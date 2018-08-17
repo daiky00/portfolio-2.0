@@ -1,5 +1,5 @@
 import React from 'react';
-import Land from '../land.svg';
+import Land from '../images/land.svg';
 import Img from '../components/Img';
 import Title from '../components/Title';
 import SubTitle from '../components/SubTitle';

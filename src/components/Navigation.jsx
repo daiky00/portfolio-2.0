@@ -4,7 +4,6 @@ import ListItem from './List/ListItem';
 import List from './List/List';
 
 class Navigation extends Component {
-	state = {};
 	render() {
 		return (
 			<List>

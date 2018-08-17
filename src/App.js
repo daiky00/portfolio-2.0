@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MeTwo from './metwo.svg';
+import MeTwo from './images/metwo.svg';
 import Header from './layout/Header';
 import Img from './components/Img';
 import { Grid, Row, Col } from 'react-flexbox-grid';
@@ -12,11 +12,11 @@ class App extends Component {
 			<React.Fragment>
 				<Header>
 					<Grid>
-						<Row middle="xs" center="xs" start="md">
-							<Col xs={12} md={8}>
+						<Row middle="xs" center="xs" start="lg">
+							<Col xs={12} lg={8}>
 								<Img src={MeTwo} sizeX="102px" />
 							</Col>
-							<Col xs={12} md={4}>
+							<Col xs={12} lg={4}>
 								<Navigation />
 							</Col>
 						</Row>
