@@ -12,6 +12,10 @@
   box-shadow: #4ab19a 7px 0px 0px 0px inset !important
 }
 
+.react-h5-audio-player .flex {
+  box-shadow: none !important;
+}
+
 
 body {
   margin: 0;

@@ -37,6 +37,7 @@ const playlist = [
 
 const Player = () => (
 	<React.Fragment>
+		<Img src="images/deadmau5.jpg" sizeX="100%" max="400px" rounded="50%" />
 		<AudioPlayer
 			autoPlay
 			loop
