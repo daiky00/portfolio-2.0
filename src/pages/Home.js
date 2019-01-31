@@ -23,9 +23,6 @@ import SungradeSolar from '../images/sungrade.svg'
 
 import AudioPlayer from "react-h5-audio-player";
 
-import NASA from '../images/player-bg.jpg'
-
-
 const playlist = [
 	{
 		url: 'mp3/deadmau5.mp3',
@@ -134,6 +131,11 @@ const Home = () => (
 					</Col>
 				</Row>
 			</LazyLoad>
+			<Row center="xs">
+				<Col xs={2} md={1}>
+					<Divider />
+				</Col>
+			</Row>
 			<LazyLoad height={400} offset={-250}>
 				<Row center="xs">
 					<Col xs={12}>
