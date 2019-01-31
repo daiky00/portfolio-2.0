@@ -2,7 +2,6 @@ import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import { IoLogoGameControllerB } from 'react-icons/io';
 import { IoMdFitness } from 'react-icons/io';
-import MusicPlayer from 'react-responsive-music-player';
 import LazyLoad from 'react-lazyload';
 import Me from '../images/me.svg';
 import Desk from '../images/desk.svg';
@@ -15,12 +14,17 @@ import Divider from '../components/Divider';
 import Social from '../components/Social';
 
 //Companies
-
 import Hilti from '../images/hilti.jpg';
-import IBM from '../images/ibm.jpg';
 import Jpmorgan from '../images/jpmorgan.jpg';
-import CapitalOne from '../images/capitalone.jpg';
+import IBM from '../images/ibm.jpg';
 import BankOfAmerica from '../images/bankofamerica.jpg';
+import CapitalOne from '../images/capitalone.jpg'
+import SungradeSolar from '../images/sungrade.svg'
+
+import AudioPlayer from "react-h5-audio-player";
+
+import NASA from '../images/player-bg.jpg'
+
 
 const playlist = [
 	{
@@ -31,20 +35,33 @@ const playlist = [
 	}
 ];
 
+const Player = () => (
+	<React.Fragment>
+		<AudioPlayer
+			autoPlay
+			loop
+			preload='auto'
+			src='mp3/deadmau5.mp3'
+			onPlay={e => console.log("onPlay")}
+			// other props here
+		/>
+	</React.Fragment>
+);
+
 const Home = () => (
 	<div>
 		<Section backgroundColor="#e0ebe8">
 			<Grid>
 				<Row center="xs">
 					<Col xs={12}>
-						<Title>I'm Francisco</Title>
+						<Title>Francisco</Title>
 						<SubTitle>Senior Frontend Developer/Designer</SubTitle>
 						<Social />
 					</Col>
 				</Row>
 				<Row bottom="xs" center="xs">
 					<Col xs={12}>
-						<Img src={Desk} sizeX="100%" sizeY="120%" max="600px" />
+						<Img src={Desk} sizeX="100%" sizeY="100%" max="600px" />
 					</Col>
 				</Row>
 			</Grid>
@@ -72,12 +89,12 @@ const Home = () => (
 					<Divider />
 				</Col>
 			</Row>
-			<Row center="xs">
-				<LazyLoad height={200} offset={-250}>
+			<LazyLoad height={200} offset={-250}>
+				<Row center="xs">
 					<Col xs={12}>
 						<SubTitle>What I can do</SubTitle>
 					</Col>
-					<Col xs={12} lg={5}>
+					<Col xs={12} lg={6}>
 						<Paragraph>FRAMEWORKS</Paragraph>
 						<i className="icons devicon-angularjs-plain colored" />
 						<i className="icons devicon-vuejs-plain colored" />
@@ -95,37 +112,49 @@ const Home = () => (
 						<i className="icons devicon-grunt-plain colored" />
 						<i className="icons devicon-webpack-plain colored" />
 					</Col>
-					<Col xs={12} lg={4}>
+					<Col xs={12} lg={6}>
 						<Paragraph> LISTEN TO SOME MUSIC</Paragraph>
-						<MusicPlayer progressColor="#4ab19a" btnColor="#4ab19a" playlist={playlist} />
+						<Player />
 					</Col>
-				</LazyLoad>
-			</Row>
+				</Row>
+			</LazyLoad>
 			<Row center="xs">
 				<Col xs={2} md={1}>
 					<Divider />
 				</Col>
 			</Row>
-			<Row center="xs">
-				<Col xs={12}>
-					<SubTitle>Companies I have work for</SubTitle>
-				</Col>
-				<Col xs={6} md={4} lg={3}>
-					<Img src={Hilti} sizeX="100%" sizeY="100%" />
-				</Col>
-				<Col xs={6} md={4} lg={3}>
-					<Img src={IBM} sizeX="100%" sizeY="100%" />
-				</Col>
-				<Col xs={6} md={4} lg={3}>
-					<Img src={Jpmorgan} sizeX="100%" sizeY="100%" />
-				</Col>
-				<Col xs={6} md={4} lg={3}>
-					<Img src={BankOfAmerica} sizeX="100%" sizeY="100%" />
-				</Col>
-				<Col xs={6} md={4} lg={3}>
-					<Img src={CapitalOne} sizeX="100%" sizeY="100%" />
-				</Col>
-			</Row>
+			<LazyLoad height={400} offset={-250}>
+				<Row center="xs">
+					<Col xs={12}>
+						<SubTitle>Currently Working at</SubTitle>
+					</Col>
+					<Col xs={12} >
+						<Img src={SungradeSolar} sizeX="100%" sizeY="100%" max="600px"/>
+					</Col>
+				</Row>
+			</LazyLoad>
+			<LazyLoad height={400} offset={-250}>
+				<Row center="xs">
+					<Col xs={12}>
+						<SubTitle>Companies I have work for</SubTitle>
+					</Col>
+					<Col xs={6} md={4} lg={3}>
+						<Img src={Hilti} sizeX="100%" sizeY="100%" />
+					</Col>
+					<Col xs={6} md={4} lg={3}>
+						<Img src={BankOfAmerica} sizeX="100%" sizeY="100%" />
+					</Col>
+					<Col xs={6} md={4} lg={3}>
+						<Img src={Jpmorgan} sizeX="100%" sizeY="100%" />
+					</Col>
+					<Col xs={6} md={4} lg={3}>
+						<Img src={IBM} sizeX="100%" sizeY="100%" />
+					</Col>
+					<Col xs={6} md={4} lg={3}>
+						<Img src={CapitalOne} sizeX="100%" sizeY="100%" />
+					</Col>
+				</Row>
+			</LazyLoad>
 		</Grid>
 	</div>
 );

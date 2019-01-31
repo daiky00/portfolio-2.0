@@ -2,13 +2,23 @@
 
 .icons {
   font-size: 300%;
-  margin: 20px;
+  margin: 10%;
 }
+
+.react-h5-audio-player .toggle-play-wrapper .toggle-play-button {
+  background-color: #4ab19a !important;
+}
+.react-h5-audio-player .toggle-play-wrapper .toggle-play-button i {
+  box-shadow: #4ab19a 7px 0px 0px 0px inset !important
+}
+
 
 body {
   margin: 0;
   padding: 0;
   font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+
 }
 @media screen and (max-width: 992px) {
   body {
@@ -23,5 +33,9 @@ body {
 @media screen and (max-width: 480px) {
   body {
     font-size: .7rem;
+  }
+
+  .icons {
+    margin: 20px;
   }
 }
