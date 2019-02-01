@@ -23,15 +23,6 @@ import SungradeSolar from '../images/sungrade.svg'
 
 import AudioPlayer from "react-h5-audio-player";
 
-const playlist = [
-	{
-		url: 'mp3/deadmau5.mp3',
-		cover: 'images/deadmau5.jpg',
-		title: '4 x 4 = 12',
-		artist: [ 'deadmau5' ]
-	}
-];
-
 const Player = () => (
 	<React.Fragment>
 		<Img src="images/deadmau5.jpg" sizeX="100%" max="400px" rounded="50%" />
