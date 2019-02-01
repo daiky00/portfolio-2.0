@@ -4,6 +4,7 @@ import Header from './layout/Header';
 import Img from './components/Img';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Content from './layout/Content';
+import Footer from './layout/Footer';
 import Navigation from './components/Navigation';
 
 class App extends Component {
@@ -22,7 +23,8 @@ class App extends Component {
 						</Row>
 					</Grid>
 				</Header>
-				<Content />
+					<Content />
+				<Footer />
 			</React.Fragment>
 		);
 	}

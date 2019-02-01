@@ -52,7 +52,7 @@ const Home = () => (
 			<Grid>
 				<Row center="xs">
 					<Col xs={12}>
-						<Title>Francisco</Title>
+						<Title color="#4ab19a">Francisco</Title>
 						<SubTitle>Senior Frontend Developer/Designer</SubTitle>
 						<Social />
 					</Col>

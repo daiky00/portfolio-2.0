@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Title = styled.h1`
-	color: #4ab19a;
+	color: ${(props) => props.color};
 	font-size: 500%;
 	font-weight: bold;
 	margin: 6rem 0 0;

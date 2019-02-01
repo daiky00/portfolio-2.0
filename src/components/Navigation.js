@@ -16,9 +16,6 @@ class Navigation extends Component {
 				<ListItem inline>
 					<NavLink to="/about">About</NavLink>
 				</ListItem>
-				<ListItem inline>
-					<NavLink to="/contact">Contact</NavLink>
-				</ListItem>
 			</List>
 		);
 	}

@@ -10,7 +10,7 @@ const Contact = () => (
 			<Grid>
 				<Row center="xs">
 					<Col xs={12}>
-						<Title>Contact me</Title>
+						<Title color="#4ab19a">Contact me</Title>
 					</Col>
 					<SubTitle>Feel free to contact me for business or job offers</SubTitle>
 				</Row>
