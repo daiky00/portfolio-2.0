@@ -9,8 +9,10 @@ import Button from '../components/Button';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import LazyLoad from 'react-lazyload';
 
+
+import NamiML from '../images/namiml.png'
 import HiltiSite from '../images/hiltisite.png'
-import ASO from '../images/aso.png'
+import ASO from '../images/ASO.png'
 import SungradeSolarSite from '../images/sungradesolarsite.png'
 
 const Work = () => (
@@ -20,7 +22,7 @@ const Work = () => (
 				<Row center="xs">
 					<Col xs={12}>
 						<Title color="#4ab19a">My work</Title>
-						<SubTitle>My Last 3 Projects made with coffee</SubTitle>
+						<SubTitle>My Last 4 Projects made with coffee</SubTitle>
 					</Col>
 				</Row>
 				<Row bottom="xs" center="xs">
@@ -30,26 +32,46 @@ const Work = () => (
 				</Row>
 			</Grid>
 		</Section>
-		<Section backgroundColor="#31355b">
-			<Grid>
-				<Row center="xs">
-					<Col xs={12}>
-						<Title color="#4299ed">Sungrade</Title>
-						<SubTitle color="#ffffff">Lead Frontend Developer/Designer</SubTitle>
-						<LazyLoad height={200} offset={-50}>
-							<Img src={SungradeSolarSite} sizeX="100%" />
-						</LazyLoad>
-						<Paragraph color="#ffffff"> 
-								At Sungrade, we’re all about the green power revolution, but we’re also changing the way business is done. Instead of just for profit, we’re for purpose, 
-								striving to improve our living planet through civic responsibility, B-corp initiatives, and strategic partnerships. Together, we’re helping make our world 
-								cleaner, fairer, and brighter for everyone.  
-						</Paragraph>
-						<Paragraph> 
-							<Button color="#ffffff" backgroundColor="#4299ed" href="https://sungrade.solar">Visit Sungrade</Button>
-						</Paragraph>
-					</Col>
-				</Row>
-			</Grid>
+    <Section backgroundColor="#3b626e">
+				<Grid>
+					<Row center="xs">
+						<Col xs={12}>
+							<Title color="#4daebd">Nami ML</Title>
+							<SubTitle color="#ffffff">Senior Frontend Engineer</SubTitle>
+							<LazyLoad height={1300} offset={-50}>
+								<Img src={NamiML} sizeX="100%" />
+							</LazyLoad>
+							<Paragraph color="#ffffff"> 
+							  The Smartest Way to Sell Subscriptions. Built for the subscription era, 
+                Nami is an end-to-end solution powered by on-device machine learning to accelerate your mobile app business. 
+							</Paragraph>
+							<Paragraph> 
+								<Button color="#3b626e" backgroundColor="#4daebd" href="https://www.anime-shop-online.com/">Visit Nami</Button>
+							</Paragraph>
+						</Col>
+					</Row>
+				</Grid>
+		</Section>
+    <Section backgroundColor="#5421a9">
+				<Grid>
+					<Row center="xs">
+						<Col xs={12}>
+							<Title color="#bf92ff">ASO</Title>
+							<SubTitle color="#ffffff">CEO</SubTitle>
+							<LazyLoad height={1300} offset={-50}>
+								<Img src={ASO} sizeX="100%" />
+							</LazyLoad>
+							<Paragraph color="#ffffff"> 
+                Anime Shop Online - Anime Fans Love Us! We offer best service and great prices on Anime Products such as Clothes, Shoes and Accessories. 
+                Shipping to 185 Countries Our Anime Store operates worldwide and you can enjoy free delivery of all your Anime orders. 
+                100% Safe Payment Buy Anime Products with confidence using the world’s most popular and secure payment methods.
+							</Paragraph>
+							<Paragraph> 
+								<Button color="#5421a9" backgroundColor="#bf92ff" href="https://www.anime-shop-online.com/">Visit ASO</Button>
+							</Paragraph>
+						</Col>
+					</Row>
+				</Grid>
 		</Section>
 		<Section backgroundColor="#d5031c">
 				<Grid>
@@ -72,26 +94,26 @@ To ensure the integrity of our products, we run our own production plants and cu
 					</Row>
 				</Grid>
 		</Section>
-		<Section backgroundColor="#21364b">
-				<Grid>
-					<Row center="xs">
-						<Col xs={12}>
-							<Title color="#a7e0f3">ASO</Title>
-							<SubTitle color="#ffffff">CEO</SubTitle>
-							<LazyLoad height={1300} offset={-50}>
-								<Img src={ASO} sizeX="100%" />
-							</LazyLoad>
-							<Paragraph color="#ffffff"> 
-							Anime Fans Love Us! We offer best service and great prices on Anime Products such as Clothes, Shoes and Accessories. 
-							Shipping to 185 Countries Our Anime Store operates worldwide and you can enjoy free delivery of all your Anime orders. 
-							100% Safe Payment Buy Anime Products with confidence using the world’s most popular and secure payment methods.
-							</Paragraph>
-							<Paragraph> 
-								<Button color="#3e90ca" backgroundColor="#A8D7F9" href="https://www.anime-shop-online.com/">Visit ASO</Button>
-							</Paragraph>
-						</Col>
-					</Row>
-				</Grid>
+    <Section backgroundColor="#31355b">
+			<Grid>
+				<Row center="xs">
+					<Col xs={12}>
+						<Title color="#4299ed">Sungrade</Title>
+						<SubTitle color="#ffffff">Lead Frontend Developer/Designer</SubTitle>
+						<LazyLoad height={200} offset={-50}>
+							<Img src={SungradeSolarSite} sizeX="100%" />
+						</LazyLoad>
+						<Paragraph color="#ffffff"> 
+								At Sungrade, we’re all about the green power revolution, but we’re also changing the way business is done. Instead of just for profit, we’re for purpose, 
+								striving to improve our living planet through civic responsibility, B-corp initiatives, and strategic partnerships. Together, we’re helping make our world 
+								cleaner, fairer, and brighter for everyone.  
+						</Paragraph>
+						<Paragraph> 
+							<Button color="#ffffff" backgroundColor="#4299ed" href="https://sungrade.solar">Visit Sungrade</Button>
+						</Paragraph>
+					</Col>
+				</Row>
+			</Grid>
 		</Section>
 	</div>
 );

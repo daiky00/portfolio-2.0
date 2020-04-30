@@ -18,10 +18,13 @@ import Hilti from '../images/hilti.jpg';
 import Jpmorgan from '../images/jpmorgan.jpg';
 import IBM from '../images/ibm.jpg';
 import BankOfAmerica from '../images/bankofamerica.jpg';
-import CapitalOne from '../images/capitalone.jpg'
-import SungradeSolar from '../images/sungrade.svg'
+import CapitalOne from '../images/capitalone.jpg';
+import SungradeSolar from '../images/sungrade.svg';
+import NamiML from '../images/namiml.svg';
+import ASO from '../images/ASO-purple.svg'
 
 import AudioPlayer from "react-h5-audio-player";
+import 'react-h5-audio-player/lib/styles.css';
 
 const Player = () => (
 	<React.Fragment>
@@ -63,7 +66,7 @@ const Home = () => (
 				</Col>
 				<Col xs={12} lg={6}>
 					<Paragraph>
-						I'm a Senior Frontend Developer/Designer based in Plano, TX. I have a passion for web
+						I'm a Senior Frontend Developer/Designer based in Frisco, TX. I have a passion for web
 						development and I love to create new things for the web and mobile devices.
 					</Paragraph>
 					<Paragraph>
@@ -117,8 +120,11 @@ const Home = () => (
 					<Col xs={12}>
 						<SubTitle>Currently Working at</SubTitle>
 					</Col>
-					<Col xs={12} >
-						<Img src={SungradeSolar} sizeX="100%" sizeY="100%" max="600px"/>
+					<Col xs={6}>
+						<Img src={NamiML} sizeX="100%" sizeY="100%"/>
+					</Col>
+          <Col xs={6}>
+						<Img src={ASO} sizeX="100%" sizeY="100%"/>
 					</Col>
 				</Row>
 			</LazyLoad>
@@ -146,6 +152,9 @@ const Home = () => (
 					</Col>
 					<Col xs={6} md={4} lg={3}>
 						<Img src={CapitalOne} sizeX="100%" sizeY="100%" />
+					</Col>
+          <Col xs={6} md={4} lg={3}>
+						<Img src={SungradeSolar} sizeX="100%" sizeY="100%"/>
 					</Col>
 				</Row>
 			</LazyLoad>
