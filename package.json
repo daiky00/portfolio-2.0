@@ -6,7 +6,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-flexbox-grid": "^2.1.2",
-    "react-h5-audio-player": "^3.0.6",
+    "react-h5-audio-player": "^3.1.0",
     "react-icons": "^3.10.0",
     "react-lazyload": "^2.6.7",
     "react-router-dom": "^5.1.2",
