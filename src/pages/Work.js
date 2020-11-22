@@ -12,7 +12,7 @@ import LazyLoad from 'react-lazyload';
 
 import NamiML from '../images/namiml.png'
 import HiltiSite from '../images/hiltisite.png'
-import ASO from '../images/ASO.png'
+import Otakuchan from '../images/otakuchan.png'
 import SungradeSolarSite from '../images/sungradesolarsite.png'
 
 const Work = () => (
@@ -46,7 +46,7 @@ const Work = () => (
                 Nami is an end-to-end solution powered by on-device machine learning to accelerate your mobile app business. 
 							</Paragraph>
 							<Paragraph> 
-								<Button color="#3b626e" backgroundColor="#4daebd" href="https://www.anime-shop-online.com/">Visit Nami</Button>
+								<Button color="#3b626e" backgroundColor="#4daebd" href="https://www.namiml.com">Visit Nami</Button>
 							</Paragraph>
 						</Col>
 					</Row>
@@ -56,18 +56,17 @@ const Work = () => (
 				<Grid>
 					<Row center="xs">
 						<Col xs={12}>
-							<Title color="#bf92ff">ASO</Title>
-							<SubTitle color="#ffffff">CEO</SubTitle>
+							<Title color="#bf92ff">Otakuchan</Title>
+							<SubTitle color="#ffffff">Co-Founder & CEO</SubTitle>
 							<LazyLoad height={1300} offset={-50}>
-								<Img src={ASO} sizeX="100%" />
+								<Img src={Otakuchan} sizeX="100%" />
 							</LazyLoad>
 							<Paragraph color="#ffffff"> 
-                Anime Shop Online - Anime Fans Love Us! We offer best service and great prices on Anime Products such as Clothes, Shoes and Accessories. 
-                Shipping to 185 Countries Our Anime Store operates worldwide and you can enjoy free delivery of all your Anime orders. 
-                100% Safe Payment Buy Anime Products with confidence using the world’s most popular and secure payment methods.
+                Otakuchan.com is a retail experience created for fans of Anime, Games, Comics and Cartoons. We carry 100% officially licensed EXCLUSIVE apparel, accessories, and more from the biggest companies like Crunchyroll, Nintendo, Marvel, LucasFilm and many more.  💯
+                We started Otakuchan.com to create one spot for all otakus that are fans of any type of art from Anime, Games, Comics or Cartoons you can find it all in our website.
 							</Paragraph>
 							<Paragraph> 
-								<Button color="#5421a9" backgroundColor="#bf92ff" href="https://www.anime-shop-online.com/">Visit ASO</Button>
+								<Button color="#5421a9" backgroundColor="#bf92ff" href="https://www.otakuchan.com">Visit Otakuchan</Button>
 							</Paragraph>
 						</Col>
 					</Row>

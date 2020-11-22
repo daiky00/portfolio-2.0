@@ -21,7 +21,7 @@ import BankOfAmerica from '../images/bankofamerica.jpg';
 import CapitalOne from '../images/capitalone.jpg';
 import SungradeSolar from '../images/sungrade.svg';
 import NamiML from '../images/namiml.svg';
-import ASO from '../images/ASO-purple.svg'
+import Otakuchan from '../images/otakuchan.svg'
 
 import AudioPlayer from "react-h5-audio-player";
 import 'react-h5-audio-player/lib/styles.css';
@@ -124,7 +124,7 @@ const Home = () => (
 						<Img src={NamiML} sizeX="100%" sizeY="100%"/>
 					</Col>
           <Col xs={6}>
-						<Img src={ASO} sizeX="100%" sizeY="100%"/>
+						<Img src={Otakuchan} sizeX="100%" sizeY="100%"/>
 					</Col>
 				</Row>
 			</LazyLoad>
