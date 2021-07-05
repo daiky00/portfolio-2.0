@@ -33,8 +33,6 @@ const Player = () => (
 			loop
 			preload='auto'
 			src='mp3/deadmau5.mp3'
-			onPlay={e => console.log("onPlay")}
-			// other props here
 		/>
 	</React.Fragment>
 );
