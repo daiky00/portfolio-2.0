@@ -14,6 +14,7 @@ import NamiML from '../images/namiml.png'
 import HiltiSite from '../images/hiltisite.png'
 import Otakuchan from '../images/otakuchan.png'
 import SungradeSolarSite from '../images/sungradesolarsite.png'
+import Omgkawaii from '../images/omgkawaiii.png';
 
 const Work = () => (
 	<div>
@@ -47,6 +48,26 @@ const Work = () => (
 							</Paragraph>
 							<Paragraph> 
 								<Button color="#3b626e" backgroundColor="#4daebd" href="https://www.namiml.com">Visit Nami</Button>
+							</Paragraph>
+						</Col>
+					</Row>
+				</Grid>
+		</Section>
+    <Section backgroundColor="#fc1681">
+				<Grid>
+					<Row center="xs">
+						<Col xs={12}>
+							<Title color="#ffbedc">Omg kawaii</Title>
+							<SubTitle color="#ffbedc">Co-Founder & CTO</SubTitle>
+							<LazyLoad height={1300} offset={-50}>
+								<Img src={Omgkawaii} sizeX="100%" />
+							</LazyLoad>
+							<Paragraph color="#ffbedc"> 
+                Our passion to make people smile provides us the motivation and the determination to rise this amazing plushies to a high level of 
+                quality with a customer’s satisfaction as our main goal! 🐰 🦄 🐮 🐻 🐶 🦊 🦖 🐱 🦁. 🐷 🦒 🐘 🐼 🐤 🐢
+							</Paragraph>
+							<Paragraph> 
+								<Button color="#fc1681" backgroundColor="#ffbedc" href="https://omgkawaii.com/">Visit Omg kawaii</Button>
 							</Paragraph>
 						</Col>
 					</Row>
@@ -93,6 +114,7 @@ To ensure the integrity of our products, we run our own production plants and cu
 					</Row>
 				</Grid>
 		</Section>
+    
     <Section backgroundColor="#31355b">
 			<Grid>
 				<Row center="xs">
