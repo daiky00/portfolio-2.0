@@ -1,9 +1,8 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import { IoLogoGameControllerB } from 'react-icons/io';
-import { IoMdFitness } from 'react-icons/io';
+import { IoLogoGameControllerB, IoMdFitness } from 'react-icons/io';
 import LazyLoad from 'react-lazyload';
-import Me from '../images/me.svg';
+import Me from '../images/profile.jpg';
 import Desk from '../images/desk.svg';
 import Img from '../components/Img';
 import Title from '../components/Title';
@@ -20,8 +19,8 @@ import IBM from '../images/ibm.jpg';
 import BankOfAmerica from '../images/bankofamerica.jpg';
 import CapitalOne from '../images/capitalone.jpg';
 import SungradeSolar from '../images/sungrade.svg';
-import NamiML from '../images/namiml.svg';
-import Otakuchan from '../images/otakuchan.svg'
+import NamiML from '../images/namiml-logo.png';
+import OmgKawaii from '../images/omgkawaii.png'
 
 import AudioPlayer from "react-h5-audio-player";
 import 'react-h5-audio-player/lib/styles.css';
@@ -60,7 +59,7 @@ const Home = () => (
 		</Section>
 		<Grid>
 			<Row center="xs">
-				<Img src={Me} sizeX="152px" sizeY="200px" />
+				<Img src={Me} sizeX="180px" sizeY="190px" style={{marginTop: 20, borderRadius: '50%'}} />
 				<Col xs={12}>
 					<SubTitle>Hi.</SubTitle>
 				</Col>
@@ -103,6 +102,10 @@ const Home = () => (
 						<i className="icons devicon-gulp-plain colored" />
 						<i className="icons devicon-grunt-plain colored" />
 						<i className="icons devicon-webpack-plain colored" />
+            <Paragraph>OTHERS TOOLS</Paragraph>
+            <i class="icons devicon-graphql-plain colored" />
+            <i class="icons devicon-d3js-plain colored" />
+            <i class="icons devicon-redux-original colored" />
 					</Col>
 					<Col xs={12} lg={6}>
 						<Paragraph> LISTEN TO SOME MUSIC</Paragraph>
@@ -120,11 +123,11 @@ const Home = () => (
 					<Col xs={12}>
 						<SubTitle>Currently Working at</SubTitle>
 					</Col>
-					<Col xs={6}>
+					<Col xs={6} md={4} lg={3}>
 						<Img src={NamiML} sizeX="100%" sizeY="100%"/>
 					</Col>
-          <Col xs={6}>
-						<Img src={Otakuchan} sizeX="100%" sizeY="100%"/>
+          <Col xs={6} md={4} lg={3}>
+						<Img src={OmgKawaii} sizeX="100%" sizeY="100%"/>
 					</Col>
 				</Row>
 			</LazyLoad>
@@ -138,26 +141,32 @@ const Home = () => (
 					<Col xs={12}>
 						<SubTitle>Companies I have work for</SubTitle>
 					</Col>
-					<Col xs={6} md={4} lg={3}>
+					<Col xs={6} md={4} lg={3} className="mb">
 						<Img src={Hilti} sizeX="100%" sizeY="100%" />
 					</Col>
-					<Col xs={6} md={4} lg={3}>
+					<Col xs={6} md={4} lg={3} className="mb">
 						<Img src={BankOfAmerica} sizeX="100%" sizeY="100%" />
 					</Col>
-					<Col xs={6} md={4} lg={3}>
+					<Col xs={6} md={4} lg={3} className="mb">
 						<Img src={Jpmorgan} sizeX="100%" sizeY="100%" />
 					</Col>
-					<Col xs={6} md={4} lg={3}>
+					<Col xs={6} md={4} lg={3} className="mb">
 						<Img src={IBM} sizeX="100%" sizeY="100%" />
 					</Col>
-					<Col xs={6} md={4} lg={3}>
-						<Img src={CapitalOne} sizeX="100%" sizeY="100%" />
-					</Col>
-          <Col xs={6} md={4} lg={3}>
-						<Img src={SungradeSolar} sizeX="100%" sizeY="100%"/>
-					</Col>
-				</Row>
-			</LazyLoad>
+          <Col xs={6} md={4} lg={3} className="mb">
+            <Img src={CapitalOne} sizeX="100%" sizeY="100%" style={{border: '1px solid #f3f2f1'}}/>
+          </Col>
+          <Col xs={6} md={4} lg={3} className="mb" >
+            <Img src={SungradeSolar} sizeX="90%" sizeY="100%" style={{border: '1px solid #f3f2f1', padding: '0 12px'}} />
+          </Col>
+        </Row>
+      </LazyLoad>
+     
+      <Row center="xs">
+        <Col xs={2} md={1}>
+          <Divider />
+        </Col>
+      </Row>
 		</Grid>
 	</div>
 );

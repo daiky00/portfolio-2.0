@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MeTwo from './images/metwo.svg';
+import MeTwo from './images/profile.jpg';
 import Header from './layout/Header';
 import Img from './components/Img';
 import { Grid, Row, Col } from 'react-flexbox-grid';
@@ -14,7 +14,7 @@ const App = () => {
         <Grid>
           <Row middle="xs" center="xs" start="lg">
             <Col xs={12} lg={8}>
-              <Img src={MeTwo} sizeX="102px" />
+              <Img src={MeTwo} sizeX="102px" style={{borderRadius: '50%'}}  />
             </Col>
             <Col xs={12} lg={4}>
               <Navigation />
