@@ -16,8 +16,8 @@ const App = () => {
       <Header>
         <Grid>
           <Row middle="xs" center="xs" start="lg">
-            <Col xs={12} lg={8} onClick={() => history.push('/')}>
-              <Img src={MeTwo} sizeX="102px" style={{borderRadius: '50%', cursor: 'pointer'}}  />
+            <Col xs={12} lg={8} >
+              <Img src={MeTwo} sizeX="102px" style={{borderRadius: '50%', cursor: 'pointer'}} onClick={() => history.push('/')} />
             </Col>
             <Col xs={12} lg={4}>
               <Navigation />
