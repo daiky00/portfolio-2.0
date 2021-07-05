@@ -103,9 +103,9 @@ const Home = () => (
 						<i className="icons devicon-grunt-plain colored" />
 						<i className="icons devicon-webpack-plain colored" />
             <Paragraph>OTHERS TOOLS</Paragraph>
-            <i class="icons devicon-graphql-plain colored" />
-            <i class="icons devicon-d3js-plain colored" />
-            <i class="icons devicon-redux-original colored" />
+            <i className="icons devicon-graphql-plain colored" />
+            <i className="icons devicon-d3js-plain colored" />
+            <i className="icons devicon-redux-original colored" />
 					</Col>
 					<Col xs={12} lg={6}>
 						<Paragraph> LISTEN TO SOME MUSIC</Paragraph>
