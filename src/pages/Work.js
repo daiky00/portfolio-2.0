@@ -33,11 +33,11 @@ const Work = () => (
 				</Row>
 			</Grid>
 		</Section>
-    <Section backgroundColor="#3b626e">
+    <Section backgroundColor="#021f3e">
 				<Grid>
 					<Row center="xs">
 						<Col xs={12}>
-							<Title color="#4daebd">Nami ML</Title>
+							<Title color="#1374de">Nami ML</Title>
 							<SubTitle color="#ffffff">Senior Frontend Engineer</SubTitle>
 							<LazyLoad height={1300} offset={-50}>
 								<Img src={NamiML} sizeX="100%" />
@@ -47,7 +47,7 @@ const Work = () => (
                 Nami is an end-to-end solution powered by on-device machine learning to accelerate your mobile app business. 
 							</Paragraph>
 							<Paragraph> 
-								<Button color="#3b626e" backgroundColor="#4daebd" href="https://www.namiml.com">Visit Nami</Button>
+								<Button color="#021f3" backgroundColor="#1374de" href="https://www.namiml.com">Visit Nami</Button>
 							</Paragraph>
 						</Col>
 					</Row>

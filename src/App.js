@@ -1,5 +1,4 @@
 import React from 'react';
-import { Router } from 'react-router-dom';
 import MeTwo from './images/profile.jpg';
 import Header from './layout/Header';
 import Img from './components/Img';
@@ -7,12 +6,11 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import Content from './layout/Content';
 import Footer from './layout/Footer';
 import Navigation from './components/Navigation';
-import history from './history';
-
+import {BrowserRouter as Router} from 'react-router-dom';
 
 const App = () => {
   return (
-    <Router history={history}>
+    <Router>
       <Header>
         <Grid>
           <Row middle="xs" center="xs" start="lg">

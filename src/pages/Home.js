@@ -63,7 +63,7 @@ const Home = () => (
 				</Col>
 				<Col xs={12} lg={6}>
 					<Paragraph>
-						I'm a Senior Frontend Developer/Designer based in Frisco, TX. I have a passion for web
+						I'm a Senior Frontend Developer/Designer based in Florida. I have a passion for web
 						development and I love to create new things for the web and mobile devices.
 					</Paragraph>
 					<Paragraph>
