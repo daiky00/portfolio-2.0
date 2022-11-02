@@ -3,7 +3,6 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import { IoLogoGameControllerB, IoMdFitness } from 'react-icons/io';
 import LazyLoad from 'react-lazyload';
 import Me from '../images/profile.jpg';
-import Desk from '../images/desk.svg';
 import Img from '../components/Img';
 import Title from '../components/Title';
 import SubTitle from '../components/SubTitle';
@@ -11,6 +10,7 @@ import Section from '../components/Section';
 import Paragraph from '../components/Paragraph';
 import Divider from '../components/Divider';
 import Social from '../components/Social';
+import Desk from '../components/Desk/Desk';
 
 //Companies
 import Hilti from '../images/hilti.jpg';
@@ -19,38 +19,37 @@ import IBM from '../images/ibm.jpg';
 import BankOfAmerica from '../images/bankofamerica.jpg';
 import CapitalOne from '../images/capitalone.jpg';
 import SungradeSolar from '../images/sungrade.svg';
-import NamiML from '../images/namiml-logo.png';
+import NamiML from '../images/namiml-logo.jpg';
 import OmgKawaii from '../images/omgkawaii.png'
 
 import AudioPlayer from "react-h5-audio-player";
-import 'react-h5-audio-player/lib/styles.css';
 
 const Player = () => (
 	<React.Fragment>
-		<Img src="images/deadmau5.jpg" sizeX="100%" max="400px" rounded="50%" />
+		<Img src="images/kawaii.jpeg" sizeX="100%" max="500px" />
 		<AudioPlayer
 			autoPlay
 			loop
 			preload='auto'
-			src='mp3/deadmau5.mp3'
+			src='mp3/kawaii.mp3'
 		/>
 	</React.Fragment>
 );
 
 const Home = () => (
 	<div>
-		<Section backgroundColor="#e0ebe8">
+		<Section backgroundColor="#e9eda0">
 			<Grid>
 				<Row center="xs">
 					<Col xs={12}>
-						<Title color="#4ab19a">Francisco</Title>
+						<Title color="#5a9e43">Francisco</Title>
 						<SubTitle>Senior Frontend Developer/Designer</SubTitle>
 						<Social />
 					</Col>
 				</Row>
 				<Row bottom="xs" center="xs">
 					<Col xs={12}>
-						<Img src={Desk} sizeX="100%" sizeY="100%" max="600px" />
+          <Desk />
 					</Col>
 				</Row>
 			</Grid>

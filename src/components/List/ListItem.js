@@ -6,7 +6,7 @@ const ListItem = styled.li`
 	font-size: 130%;
 
 	a {
-		color: #4ab19a;
+		color: #5a9e43;
 		text-decoration: none;
 		&:hover {
 			color: #1e836c;
