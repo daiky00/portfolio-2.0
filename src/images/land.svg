@@ -40,9 +40,9 @@
         <rect id="rectangle20" stroke="none" fill="rgb(112, 89, 94)" x="426" y="26" width="6.5" height="9" />
     </g>
     <g id="hills">
-        <path id="backHill" stroke="none" fill="rgb(62, 156, 135)" d="M 212,231 C 212,132.14 296.62,52 401,52 505.38,52 590,132.14 590,231 L 401,231 Z M 212,231" />
+        <path id="backHill" stroke="none" fill="rgb(90 158 67)" d="M 212,231 C 212,132.14 296.62,52 401,52 505.38,52 590,132.14 590,231 L 401,231 Z M 212,231" />
         <path id="whiteHill" stroke="none" fill="rgb(255, 255, 255)" d="M 333,383 C 333,259.29 437.09,159 565.5,159 693.91,159 798,259.29 798,383 L 565.5,383 Z M 333,383" />
-        <path id="leftHill" stroke="none" fill="rgb(74, 177, 154)" d="M 3,368 C 3,238.21 116.94,133 257.5,133 398.06,133 512,238.21 512,368 L 257.5,368 Z M 3,368" />
+        <path id="leftHill" stroke="none" fill="rgb(170 207 66)" d="M 3,368 C 3,238.21 116.94,133 257.5,133 398.06,133 512,238.21 512,368 L 257.5,368 Z M 3,368" />
     </g>
     <g id="yellowTree">
         <ellipse id="oval" stroke="none" fill="rgb(67, 159, 138)" cx="104" cy="215.5" rx="12" ry="5.5" />

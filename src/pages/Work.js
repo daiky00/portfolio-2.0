@@ -18,11 +18,11 @@ import Omgkawaii from '../images/omgkawaiii.png';
 
 const Work = () => (
 	<div>
-		<Section backgroundColor="#e0ebe8">
+		<Section backgroundColor="#e9eda0">
 			<Grid>
 				<Row center="xs">
 					<Col xs={12}>
-						<Title color="#4ab19a">My work</Title>
+						<Title color="#5a9e43">My work</Title>
 						<SubTitle>My Last 4 Projects made with coffee</SubTitle>
 					</Col>
 				</Row>

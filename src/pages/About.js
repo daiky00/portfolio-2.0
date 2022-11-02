@@ -11,11 +11,11 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 
 const About = () => (
 	<React.Fragment>
-		<Section backgroundColor="#e0ebe8">
+		<Section backgroundColor="#e9eda0">
 			<Grid>
 				<Row center="xs">
 					<Col xs={12}>
-						<Title color="#4ab19a">About me</Title>
+						<Title color="#5a9e43">About me</Title>
 					</Col>
 					<SubTitle>Things you should know about me</SubTitle>
 				</Row>

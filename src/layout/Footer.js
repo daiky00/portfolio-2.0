@@ -5,7 +5,7 @@ import Section from '../components/Section';
 import Paragraph from '../components/Paragraph';
 
 const Footer = () => (
-	<Section backgroundColor="#e0ebe8">
+	<Section backgroundColor="#e9eda0">
 		<Grid>
 			<Row center="xs">
 				<Col xs={12}>
