@@ -21,6 +21,7 @@ import CapitalOne from '../images/capitalone.jpg';
 import SungradeSolar from '../images/sungrade.svg';
 import NamiML from '../images/namiml-logo.jpg';
 import OmgKawaii from '../images/omgkawaii.png'
+import SteelPerlot from '../images/steelperlot-logo.jpg'
 
 import AudioPlayer from "react-h5-audio-player";
 
@@ -120,9 +121,6 @@ const Home = () => (
 					<Col xs={12}>
 						<SubTitle>Currently Working at</SubTitle>
 					</Col>
-					<Col xs={6} md={4} lg={3}>
-						<Img src={NamiML} sizeX="100%" sizeY="100%"/>
-					</Col>
           <Col xs={6} md={4} lg={3}>
 						<Img src={OmgKawaii} sizeX="100%" sizeY="100%"/>
 					</Col>
@@ -138,6 +136,12 @@ const Home = () => (
 					<Col xs={12}>
 						<SubTitle>Companies I have work for</SubTitle>
 					</Col>
+          <Col xs={6} md={4} lg={3} className="mb">
+						<Img src={NamiML} sizeX="100%" sizeY="100%"/>
+					</Col>
+          <Col xs={6} md={4} lg={3} className="mb">
+            <Img src={SteelPerlot} sizeX="100%" sizeY="100%"/>
+          </Col>
 					<Col xs={6} md={4} lg={3} className="mb">
 						<Img src={Hilti} sizeX="100%" sizeY="100%" />
 					</Col>
@@ -150,6 +154,7 @@ const Home = () => (
 					<Col xs={6} md={4} lg={3} className="mb">
 						<Img src={IBM} sizeX="100%" sizeY="100%" />
 					</Col>
+          
           <Col xs={6} md={4} lg={3} className="mb">
             <Img src={CapitalOne} sizeX="100%" sizeY="100%" style={{border: '1px solid #f3f2f1'}}/>
           </Col>
