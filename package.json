@@ -6,12 +6,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-flexbox-grid": "^2.1.2",
-    "react-h5-audio-player": "^3.8.4",
-    "react-icons": "^4.4.0",
+    "react-h5-audio-player": "^3.8.6",
+    "react-icons": "^4.6.0",
     "react-lazyload": "^3.2.0",
-    "react-router-dom": "^6.3.0",
+    "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.6"
   },
   "scripts": {
     "start": "react-scripts start",
