@@ -20,20 +20,16 @@ import BankOfAmerica from '../images/bankofamerica.jpg';
 import CapitalOne from '../images/capitalone.jpg';
 import SungradeSolar from '../images/sungrade.svg';
 import NamiML from '../images/namiml-logo.jpg';
-import OmgKawaii from '../images/omgkawaii.png'
-import SteelPerlot from '../images/steelperlot-logo.jpg'
+import OmgKawaii from '../images/omgkawaii.png';
+import Limacharlie from '../images/limacharlie-logo.jpg';
+import SteelPerlot from '../images/steelperlot-logo.jpg';
 
-import AudioPlayer from "react-h5-audio-player";
+import AudioPlayer from 'react-h5-audio-player';
 
 const Player = () => (
 	<React.Fragment>
 		<Img src="images/kawaii.jpeg" sizeX="100%" max="500px" />
-		<AudioPlayer
-			autoPlay
-			loop
-			preload='auto'
-			src='mp3/kawaii.mp3'
-		/>
+		<AudioPlayer autoPlay loop preload="auto" src="mp3/kawaii.mp3" />
 	</React.Fragment>
 );
 
@@ -50,26 +46,33 @@ const Home = () => (
 				</Row>
 				<Row bottom="xs" center="xs">
 					<Col xs={12}>
-          <Desk />
+						<Desk />
 					</Col>
 				</Row>
 			</Grid>
 		</Section>
 		<Grid>
 			<Row center="xs">
-				<Img src={Me} sizeX="180px" sizeY="190px" style={{marginTop: 20, borderRadius: '50%'}} />
+				<Img
+					src={Me}
+					sizeX="180px"
+					sizeY="190px"
+					style={{ marginTop: 20, borderRadius: '50%' }}
+				/>
 				<Col xs={12}>
 					<SubTitle>Hi.</SubTitle>
 				</Col>
 				<Col xs={12} lg={6}>
 					<Paragraph>
-						I'm a Senior Frontend Developer/Designer based in Florida. I have a passion for web
-						development and I love to create new things for the web and mobile devices.
+						I'm a Senior Frontend Developer/Designer based in Florida. I have a
+						passion for web development and I love to create new things for the
+						web and mobile devices.
 					</Paragraph>
 					<Paragraph>
-						I enjoy turning complex problems into simple, beautiful and intuitive interfaces with responsive
-						design. When I'm not coding or pushing pixels, you'll find me in the gym <IoMdFitness /> or
-						playing some video games <IoLogoGameControllerB />.
+						I enjoy turning complex problems into simple, beautiful and
+						intuitive interfaces with responsive design. When I'm not coding or
+						pushing pixels, you'll find me in the gym <IoMdFitness /> or playing
+						some video games <IoLogoGameControllerB />.
 					</Paragraph>
 				</Col>
 			</Row>
@@ -100,10 +103,10 @@ const Home = () => (
 						<i className="icons devicon-gulp-plain colored" />
 						<i className="icons devicon-grunt-plain colored" />
 						<i className="icons devicon-webpack-plain colored" />
-            <Paragraph>OTHERS TOOLS</Paragraph>
-            <i className="icons devicon-graphql-plain colored" />
-            <i className="icons devicon-d3js-plain colored" />
-            <i className="icons devicon-redux-original colored" />
+						<Paragraph>OTHERS TOOLS</Paragraph>
+						<i className="icons devicon-graphql-plain colored" />
+						<i className="icons devicon-d3js-plain colored" />
+						<i className="icons devicon-redux-original colored" />
 					</Col>
 					<Col xs={12} lg={6}>
 						<Paragraph> LISTEN TO SOME MUSIC</Paragraph>
@@ -121,8 +124,11 @@ const Home = () => (
 					<Col xs={12}>
 						<SubTitle>Currently Working at</SubTitle>
 					</Col>
-          <Col xs={6} md={4} lg={3}>
-						<Img src={OmgKawaii} sizeX="100%" sizeY="100%"/>
+					<Col xs={6} md={4} lg={3}>
+						<Img src={OmgKawaii} sizeX="100%" sizeY="100%" />
+					</Col>
+					<Col xs={6} md={4} lg={3}>
+						<Img src={Limacharlie} sizeX="100%" sizeY="100%" />
 					</Col>
 				</Row>
 			</LazyLoad>
@@ -136,12 +142,12 @@ const Home = () => (
 					<Col xs={12}>
 						<SubTitle>Companies I have work for</SubTitle>
 					</Col>
-          <Col xs={6} md={4} lg={3} className="mb">
-						<Img src={NamiML} sizeX="100%" sizeY="100%"/>
+					<Col xs={6} md={4} lg={3} className="mb">
+						<Img src={NamiML} sizeX="100%" sizeY="100%" />
 					</Col>
-          <Col xs={6} md={4} lg={3} className="mb">
-            <Img src={SteelPerlot} sizeX="100%" sizeY="100%"/>
-          </Col>
+					<Col xs={6} md={4} lg={3} className="mb">
+						<Img src={SteelPerlot} sizeX="100%" sizeY="100%" />
+					</Col>
 					<Col xs={6} md={4} lg={3} className="mb">
 						<Img src={Hilti} sizeX="100%" sizeY="100%" />
 					</Col>
@@ -154,21 +160,31 @@ const Home = () => (
 					<Col xs={6} md={4} lg={3} className="mb">
 						<Img src={IBM} sizeX="100%" sizeY="100%" />
 					</Col>
-          
-          <Col xs={6} md={4} lg={3} className="mb">
-            <Img src={CapitalOne} sizeX="100%" sizeY="100%" style={{border: '1px solid #f3f2f1'}}/>
-          </Col>
-          <Col xs={6} md={4} lg={3} className="mb" >
-            <Img src={SungradeSolar} sizeX="90%" sizeY="100%" style={{border: '1px solid #f3f2f1', padding: '0 12px'}} />
-          </Col>
-        </Row>
-      </LazyLoad>
-     
-      <Row center="xs">
-        <Col xs={2} md={1}>
-          <Divider />
-        </Col>
-      </Row>
+
+					<Col xs={6} md={4} lg={3} className="mb">
+						<Img
+							src={CapitalOne}
+							sizeX="100%"
+							sizeY="100%"
+							style={{ border: '1px solid #f3f2f1' }}
+						/>
+					</Col>
+					<Col xs={6} md={4} lg={3} className="mb">
+						<Img
+							src={SungradeSolar}
+							sizeX="90%"
+							sizeY="100%"
+							style={{ border: '1px solid #f3f2f1', padding: '0 12px' }}
+						/>
+					</Col>
+				</Row>
+			</LazyLoad>
+
+			<Row center="xs">
+				<Col xs={2} md={1}>
+					<Divider />
+				</Col>
+			</Row>
 		</Grid>
 	</div>
 );

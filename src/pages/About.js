@@ -34,9 +34,15 @@ const About = () => (
 				</Col>
 				<Col xs={12} lg={6}>
 					<Paragraph>
-						I'm just like the animation above, I keep pushing myself to the next level no matter how many times I fail, 
-						I keep it rolling until I overcome the obstacle in front of me. Obstacles are part of our everyday life and 
-						I found myself almost giving up. But hey!, I am a very stubborn guy so I never did.
+						Just like the relentless persistence in the animation above, I
+						persistently strive for the next level. Regardless of the countless
+						times I've faltered, I continue to keep the momentum, overcoming
+						every obstacle that stands in my path. Obstacles, after all, are the
+						inevitable components of our daily lives, and there have been
+						moments when I've been on the brink of surrender. But then, there's
+						this unyielding stubbornness within me, a tenacity that simply
+						refuses to bow down. I may waver, but I never yield; I may stumble,
+						but I never fall.
 					</Paragraph>
 				</Col>
 			</Row>
@@ -49,25 +55,51 @@ const About = () => (
 				<Col xs={12} lg={6}>
 					<SubTitle>I love to learn new things</SubTitle>
 					<Paragraph>
-					Knowing how to code is mostly about building things, and the path is clear when you have a sense of the end goal. 
-					But is it bad not having an end goal ? because I don't, I just keep learning new things all the time. I believe in the 
-					programming field there is not end to learning new languages and new ways to program. Technology just keep growing every single year, 
-					so we would never reach an end goal this is a fact for programmers.
+						Mastering the art of coding largely revolves around creating and
+						constructing - the path forward crystalizes when the end goal is in
+						sight. However, I find myself journeying without a fixed
+						destination, continuously nurturing my knowledge with each passing
+						day. Is this lack of a defined goal detrimental? I don't believe so.
+						In the realm of programming, there's an infinite landscape to
+						explore; there's no boundary to the languages you can learn, nor a
+						cap to the innovative programming techniques you can master. With
+						technology evolving at an unstoppable pace each year, the goalposts
+						are perpetually shifting. In essence, we programmers are marathon
+						runners on a course that extends indefinitely - there's no finish
+						line, and this is a reality we embrace. We learn, we grow, we adapt,
+						in sync with the ever-advancing world of tech. It's not about
+						reaching an 'end', it's about the journey and the continual
+						evolution that it brings.
 					</Paragraph>
 				</Col>
 				<Col xs={12} lg={6}>
 					<SubTitle>Personal information</SubTitle>
 					<Paragraph>
-						After going to college I realize that it was not my thing and I started working on my own projects from home while learning how to code. 
-						I turn out to be a very good frontend developer and CEO since I manage to made my first idea and goal come to life and actually made a 
-						good amount of money out of it. Since building my first website back in 2011 I have continued to be captivated and in love with what the 
-						web has to offer to consumers and professionals. I enjoy when I deliver high quality builds for the client and my own gratification. I love 
-						overcoming challenges in development with particular focus in all things web standards, accessibility, semantic code, user experience and 
-						building website good practices.
+						Navigating the halls of a college campus, I soon came to the
+						realization that the traditional education path wasn't my calling.
+						Instead, I felt an irresistible pull towards a different kind of
+						learning - one that involved nurturing my passion from the comfort
+						of my home. I submerged myself in the captivating world of coding,
+						and it was there that I found my true calling, morphing into a
+						proficient frontend developer and, eventually, a CEO. From the
+						moment I breathed life into my first idea and nurtured it into
+						reality, I knew I was on the right track. That initial project not
+						only resulted in a substantial financial reward but also solidified
+						my passion for web development. Since building my first website back
+						in 2011, my admiration for the infinite possibilities the web offers
+						both consumers and professionals has remained undiminished. I find
+						immense satisfaction in delivering high-quality builds that not only
+						fulfill the client's needs but also bring a sense of personal
+						gratification. The thrill of overcoming developmental challenges
+						never ceases to exhilarate me, especially when it comes to upholding
+						web standards, ensuring accessibility, crafting semantic code,
+						enhancing user experience, and implementing website best practices.
+						I am in constant pursuit of refining my craft and adhering to the
+						principles that make a website truly exceptional.
 					</Paragraph>
 				</Col>
 			</Row>
-			</Grid>
+		</Grid>
 	</React.Fragment>
 );
 
